@@ -54,7 +54,7 @@ def main() -> int:
     +===============================+=======================+========================+=====================+
     | Header (4-bytes)              | Size (4-bytes)        | CRC32 (4-bytes)        | Encrypted Payload   |
     +-------------------------------+-----------------------+------------------------+---------------------+
-    | RAIN (or whatever)            | <size of raw payload> | <CRC32 of raw payload> | <encrypted payload> |
+    | KILL (or whatever)            | <size of raw payload> | <CRC32 of raw payload> | <encrypted payload> |
     +-------------------------------+-----------------------+------------------------+---------------------+
     '''
 
